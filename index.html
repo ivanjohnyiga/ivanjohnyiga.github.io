@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST MATIA MULUMBA CATHOLIC SCHOOL-KIREKA</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        
+        <nav>
+           <a href="index.html"><img src= "logo.JPG"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+               
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+           
+        </nav>
+        <div class="textbox">
+            <h1>ST MATIA MULUMBA CATHOLIC DAY & BOARDING <br>PRIMARY SCHOOL</h1>
+            <p>"We Fight For The Future"</p>
+            <a href=""class="herobtn">For More Information, Visit Us</a>
+
+        </div>
+
+    </section>
+    
+
+    <!------ The school profile ------>
+
+    <section class="profile">
+        <h1>THE SCHOOL PROFILE.</h1>
+        <div class="row">
+             <div class="course-col">
+             <h3>THE SCHOOL VISION</h3><br>
+             <p>TO BE A MODEL SCHOOL IN THE<br> PROVISION OF QUALITY AND PRODUCE<br> GOD FEARING AND RESPONSIBLE CITIZENS.</p>
+             </div>
+               <div class="course-col">
+                 <h3>THE SCHOOL MISISION</h3><br>
+                 <p>TO PROVIDE ALL ROUND EDUCATION <br>TO SCHOOL GOING CHILDREN.</p>
+             </div>
+                <div class="course-col">
+                    <h3>THE SCHOOL MOTTO</h3><br>
+                    <p>"WE FIGHT FOR THE FUTURE".</p>
+                    </div>
+        </div>
+
+    </section> 
+
+    <!------ campus ------>
+
+ 
+    <section class="campus">
+        <h1>OUR CAMPUSS</h1>
+        <p>Our Beautiful and Magnificient Campus.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="compound.JPG">
+                <div class="layer">
+                    <h3>CLASS BLOCKS</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="comp.JPG">
+                <div class="layer">
+                    <h3>GREEN COMPOUND</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="church.jpg">
+                <div class="layer">
+                    <h3>CHURCH</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!------ facilities ------->
+
+    <section class="facilities">
+        <h1>Our Facilities.</h1>
+        <p>Our World Class Facilities.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="libss.jpg">
+                <h3>World Class Library</h3>
+                <p>Equipt with all necessary material for academic exellence.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="spo.PNG">
+                <h3>Sports.</h3>
+                <p>Modern Sports</p>
+            </div>
+            <div class="facilities-col">
+                <img src="feeding.PNG">
+                <h3>Tasty and Health Foods.</h3>
+                <p>Health Feeding.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!------- Admin -------->
+
+    <section class="admin">
+        <h1>THE SCHOOL ADMINISTRATION.</h1>
+        <P>Our School Has an outstanding and Remarkable Administration with Experienced Team leaders.</P><br>
+        <div class="row">
+            <div class="admin-col">
+                <img src="hm.JPG">
+                <div>
+                    <p>The progress and prominence of St Matia Mulumba 
+                        has greatly been contributed by a forcal 
+                        solid administration with Officer' bond with
+                         the pupils fratanity, Parents as well as fellow teachers body.</p><br>
+                         <h3>Mr. Kayima.V<br>THE HEAD TEACHER</h3>
+                </div>
+            </div>
+            <div class="admin-col">
+                <img src="huni.JPG">
+                <div>
+                    <p>Academic exellence is prioritized at St Matia Mulumba through the 
+                        concrete study and different sessions with the pupils giving
+                         an outstanding performance..</p><br>
+                         <h3>Miss. Kayima Ritah<br>THE DIRECTOR OF STUDIES</h3>
+                </div>
+            </div>
+           
+           
+
+
+        </div>
+
+    </section>
+
+    <!------- call to action ------->
+
+    <section class="cta">
+        <h1>REGISTRATION IN PROGRESS.</h1>
+        <a href="" class="herobtn">CONTACT US</a>
+
+    </section>
+
+     <!------- Footer ------->
+
+     <section class="footer">
+         <h4>ABOUT US</h4>
+         <h3>SCHOOL OWNERSHIP.</h3>
+         <p>ST. MATIA MULUMBA CATHOLIC DAY AND BOARDING PRIMARY SCHOOL
+              KIREKA <br>IS A PRIVATE PRIMARY SCHOOL OWNED AND HEADED
+               BY CATHOLIC BISHOP, KAMPALA ARCH-DIOCESE<br> AND 
+               ADMINISTRED BY THE PARISH PRIEST OF KIREKA CATHOLIC PARISH 
+            TOGEHTER WITH THE SCHOOL MANAGEMENT BOARD.</p><br>
+            <div class="icons">
+                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+
+     </section>
+     
+
+
+
+<!-------java script for toggle menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+    navLinks.style.right = "0"
+    }
+    function hidemenu(){
+    navLinks.style.right = "-220px"
+    }
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+</body>
+</html>
